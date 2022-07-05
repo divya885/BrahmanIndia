@@ -56,8 +56,8 @@ header .nav-bar ul li{
 header .nav-bar ul li a{
     position: relative;
     color: var(--blue);
-    font-size: 1.2em;
-    font-weight: 700;
+    font-size: 1.4em;
+    font-weight: 1000;
     text-decoration: none;
     margin-left: 30px;
     transition: 0.3s ease;
@@ -99,9 +99,9 @@ header .nav-bar ul li:hover > ul{
 
 header .nav-bar ul li .drop .list a{
     position: relative;
-    color: var(--blue);
-    font-size: 1em;
-    font-weight: 600;
+    color: var(--white);
+    font-size: 1.2em;
+    font-weight: 800;
     text-decoration: none;
     margin-left: 30px;
     transition: 0.3s ease;
@@ -289,7 +289,7 @@ p{
 
 
     .menu-btn{
-        background: url(/images/menu.png)no-repeat;
+        background: url(/images/menu.png);
         filter: invert(100%);
         background-size: 30px;
         background-position: center;
@@ -301,7 +301,7 @@ p{
 
     .menu-btn.active{
         z-index: 999;
-        background: url(/images/close.png)no-repeat;
+        background: url(/images/close.png);
         background-size: 25px;
         background-position: center;
         transition: 0.4s ease;

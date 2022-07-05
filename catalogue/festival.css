@@ -15,10 +15,14 @@
     font-family: "Poppins", sans-serif;
 }
 html,body{
-    height: 90%;
-    background: url(festival\ bg.png) no-repeat;
+    height: 100%;
+    background: url(festival\ bg.png);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+   
 }
 header{
     z-index: 999;
@@ -52,9 +56,9 @@ header .nav-bar ul li{
 }
 header .nav-bar ul li a{
     position: relative;
-    color: var(--blue);
-    font-size: 1.2em;
-    font-weight: 700;
+    color: var(--black);
+    font-size: 1.4em;
+    font-weight: 1000;
     text-decoration: none;
     margin-left: 30px;
     transition: 0.3s ease;
@@ -92,8 +96,8 @@ header .nav-bar ul li:hover > ul{
 header .nav-bar ul li .drop .list a{
     position: relative;
     color: var(--blue);
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 1.2em;
+    font-weight: 800;
     text-decoration: none;
     margin-left: 30px;
     transition: 0.3s ease;
@@ -165,6 +169,7 @@ section{
     background: url(RATHYATRA.png) no-repeat;
     background-size: 100%;
 }
+
 #ad2{
     background: url(ONAMKERALA.png) no-repeat;
     background-size: 100%;
@@ -176,6 +181,21 @@ section{
 #ad4{
     background: url(ASAMBIHU.png) no-repeat;
     background-size: 100%;
+}
+#ad5{
+    background: url(JANAM.png) no-repeat;
+    background-size: 100%;
+    
+}
+#ad6{
+    background: url(diwali.png) no-repeat;
+    background-size: 100%;
+    
+}
+#ad7{
+    background: url(holi.jpg) no-repeat;
+    background-size: 100%;
+    
 }
 @media (max-width: 1040px){
     header {
@@ -248,7 +268,7 @@ section{
 
 
     .menu-btn{
-        background: url(menu.png)no-repeat;
+        background: url(menu.png);
         filter: invert(100%);
         background-size: 30px;
         background-position: center;
@@ -260,7 +280,7 @@ section{
 
     .menu-btn.active{
         z-index: 999;
-        background: url(close.png)no-repeat;
+        background: url(close.png);
         background-size: 25px;
         background-position: center;
         transition: 0.4s ease;
