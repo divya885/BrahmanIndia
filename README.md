@@ -7,3 +7,5 @@
 <h3>Gives information about tourist guides.</h3>
   
 <h3>You can choose your tourist guide and book your trip. </h3>
+
+Sql commands needed to create database for this project is given in file brahmanindia_db.sql
